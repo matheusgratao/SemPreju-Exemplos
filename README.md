@@ -12,7 +12,7 @@ Fontes desenvolvidos com o intuito de ajudar analistas que trabalham com ADVPL. 
 Saiba mais sobre os fontes em -www.sempreju.com.br
 
 FOLDER - PO-Angular
- * **Angular_login - Usando REST Protheus**: exemplo em angular para loguin usando WS do protheus e JWT.
+ * **Angular_login - Usando REST Protheus**: exemplo em angular para loguin usando WS do protheus e utilização de JWT.
 
 FOLDER - ADVPL\Projetos
   * **SPEXPTABL.prw**: Fonte para exportar o dicionario de dados em HTML
