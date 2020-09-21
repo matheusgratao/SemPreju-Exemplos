@@ -25,13 +25,16 @@ FOLDER - ADVPL\Exemplos\
    * **SPDTEXT.prw**: Fonte exemplo para converter data em extenso.
    * **SPDVALSQL.prw**: Fonte exemplo para validar se uma string SQL são valida.
    * **SPPROGR.prw**: Fonte exemplo com diversas barras de progresso.
-   * **AfterLogin.prw**: PE chamado após login ou abertura de telas se acesso em MDI..
    * **SPHELPCP.prw**: Função para inclusão de help em campos MSGET e como usar Place Hold no TGET.
    * **SPFLDPOS.prw**: Função demonstrando como usar o FieldPos.
    * **SPDIALO.prw**: Como remover o botão de fechar de uma dialog, fechar automaticamente dialog em ADVPL.
    * **SPFORMT.prw**: Como formatar string para serem utilizadas em select na condicao IN.
-   * **SPINPUT.prw**: Como utilizar a função FWInputBox e interegir com o usu�rio facilmente.
+   * **SPINPUT.prw**: Como utilizar a função FWInputBox e interegir com o usuário facilmente.
 
+FOLDER - ADVPL\Exemplos\Ponto de entrada
+   * **AfterLogin.prw**: PE chamado após login ou abertura de telas se acesso em MDI.
+   * **MsQuit.prw**: PE chamado após logoff do sistema.
+   
 FOLDER - ADVPL\Exemplos\Classes
   * **SPCLASSM.prw**: Fonte exemplo de uso da classe ClassMethArr
 
