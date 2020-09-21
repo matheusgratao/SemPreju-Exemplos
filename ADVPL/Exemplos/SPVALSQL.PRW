@@ -16,20 +16,19 @@ Função SPVALSQL
 User Function SPVALSQL()          
 Local cSql as Character
 Local lErro as Logical
-Local nQueryRet  as Numeric
+Local nQueryRet as Numeric
 
 cSql := ""
 lErro := .F.
-nQueryRet  := 0
+nQueryRet := 0
 
 dbselectarea("SA1")
-cSql := "SELECT * FROM "+RetSQLName('SB1')
+cSql :=�"SELECT * FROM "+RetSQLName('SB1')
 
 nQueryRet := TCSQLEXEC(cSql)
 
-If nQueryRet < 0
-    msgstop("ERRO NA QUERY: " + chr(10) + TCSQLError())
+if nQueryRet < 0
+    msgstop("ERRO NA QUERY: "�+ chr(10) + TCSQLError())
     lErro := .T.
 Endif
 
-Return lErro
