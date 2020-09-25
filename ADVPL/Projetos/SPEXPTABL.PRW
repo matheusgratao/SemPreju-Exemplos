@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #Include "Protheus.ch"
 #INCLUDE "fileio.ch"
 
