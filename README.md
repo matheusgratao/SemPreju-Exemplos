@@ -19,6 +19,7 @@ FOLDER - PO-Angular
 FOLDER - ADVPL\Projetos
   * **SPEXPTABL.prw**: Fonte para exportar o dicionario de dados em HTML
   * **SPSLACK.prw**: Fonte para integrar o protheus ao slack
+  * **SPDOCAUT.prw**: Fonte para exportar informações do dicionario em excel para documentação de customizações.
 
 FOLDER - ADVPL\Exemplos\
    * **SPCORES.prw**: Fonte exemplo de uso das principais cores em componente SAY.
