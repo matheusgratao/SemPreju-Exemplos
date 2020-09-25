@@ -19,6 +19,7 @@ FOLDER - PO-Angular
 FOLDER - ADVPL\Projetos
   * **SPEXPTABL.prw**: Fonte para exportar o dicionario de dados em HTML
   * **SPSLACK.prw**: Fonte para integrar o protheus ao slack
+  * **SPDOCAUT.prw**: Fonte para exportar informações do dicionario em excel para documentação de customizações.
 
 FOLDER - ADVPL\Exemplos\
    * **SPCORES.prw**: Fonte exemplo de uso das principais cores em componente SAY.
@@ -55,11 +56,11 @@ Todos os fontes deste projeto foram desenvolvidos e testado usando o ambiente a 
 
 <p><b>Essenciais:</b></p>
 <ul>
-  <li>Windows 10</li>
+  <li>Windows 10 / Ubuntu 20.04</li>
   <li><a href="https://tdn.totvs.com/display/tec/DBAccess">DbAccess</a> atualizado</li>
   <li><a href="https://www.totvs.com/blog/protheus-da-totvs">Protheus</a> na última release recorrente e binários atualizados</li>
   <li>Conexão com o banco de dados</li>
-  <li>SQL Server, ultima versão homologada</li>
+  <li>PostgreSQL, ultima versão homologada</li>
   <li>Conhecimentos básicos sobre <a href="http://www.tutorialspoint.com/sql">queries</a> e banco de dados</li>
   <li>Dicionário de dados\compatibilizador geral UPDDISTR e do módulo\ex: UPDTAF atualizado</li>
   <li>Menus atualizados</li>
