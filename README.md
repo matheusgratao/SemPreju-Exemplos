@@ -31,6 +31,8 @@ FOLDER - ADVPL\Exemplos\
    * **SPDIALO.prw**: Como remover o botão de fechar de uma dialog, fechar automaticamente dialog em ADVPL.
    * **SPFORMT.prw**: Como formatar string para serem utilizadas em select na condicao IN.
    * **SPINPUT.prw**: Como utilizar a função FWInputBox e interegir com o usuário facilmente.
+   * **SPMARKTE.prw**: Cria um markBrowse editavel usando um array como origem das informações.
+   
 
 FOLDER - ADVPL\Exemplos\Ponto de entrada
    * **AfterLogin.prw**: PE chamado após login ou abertura de telas se acesso em MDI.
