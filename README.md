@@ -32,7 +32,8 @@ FOLDER - ADVPL\Exemplos\
    * **SPFORMT.prw**: Como formatar string para serem utilizadas em select na condicao IN.
    * **SPINPUT.prw**: Como utilizar a função FWInputBox e interegir com o usuário facilmente.
    * **SPMARKTE.prw**: Cria um markBrowse editavel usando um array como origem das informações.
-   
+   * **SPNEWMOD.prw**: Como criar os três módulos especificos disponíveis.
+
 
 FOLDER - ADVPL\Exemplos\Ponto de entrada
    * **AfterLogin.prw**: PE chamado após login ou abertura de telas se acesso em MDI.
