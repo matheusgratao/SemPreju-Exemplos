@@ -33,6 +33,7 @@ FOLDER - ADVPL\Exemplos\
    * **SPINPUT.prw**: Como utilizar a função FWInputBox e interegir com o usuário facilmente.
    * **SPMARKTE.prw**: Cria um markBrowse editavel usando um array como origem das informações.
    * **SPNEWMOD.prw**: Como criar os três módulos especificos disponíveis.
+   * **SPWEBENG.prw**: Exemplo como usar a classe TWebEngine para abrir página dentro do protheus.
 
 
 FOLDER - ADVPL\Exemplos\Ponto de entrada
