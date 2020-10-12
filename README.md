@@ -34,7 +34,8 @@ FOLDER - ADVPL\Exemplos\
    * **SPMARKTE.prw**: Cria um markBrowse editavel usando um array como origem das informações.
    * **SPNEWMOD.prw**: Como criar os três módulos especificos disponíveis.
    * **SPWEBENG.prw**: Exemplo como usar a classe TWebEngine para abrir página dentro do protheus.
-
+   * **SPCHAVIN.prw**: Aprenda como usar a função GetPvProfString para buscar informações do appserver.ini e smartclient.ini
+   
 
 FOLDER - ADVPL\Exemplos\Ponto de entrada
    * **AfterLogin.prw**: PE chamado após login ou abertura de telas se acesso em MDI.
