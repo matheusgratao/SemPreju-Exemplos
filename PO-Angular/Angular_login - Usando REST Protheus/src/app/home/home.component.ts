@@ -13,12 +13,10 @@ export class HomeComponent {
 
     ngOnInit() {
         this.loading = true;
-        console.log('Buscando clientes')
         this.customerService.getAll().pipe(first()).subscribe(clientes => {
             this.loading = false;
             this.clientes = clientes.items;
-           // this.users = users;
-           console.log(clientes);
+            //console.log(clientes);
         });
     }
 }

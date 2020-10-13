@@ -11,7 +11,7 @@ export class CustomerService {
 
     getAll() {
                                                                                         //1=Cliente, 2-Fornecedor, vazio = ambos
-        return this.http.get<Customer[]>(`${environment.apiERP}/api/crm/v1/customerVendor/1`).pipe(map(res => <Customer[]>res)); 
+        return this.http.get<ApiResult>(`${environment.apiERP}/api/crm/v1/customerVendor/1`).pipe(map(res => res)); 
         
         
 
