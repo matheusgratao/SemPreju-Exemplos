@@ -2,9 +2,9 @@
 #Include 'ParmType.ch'
 
 /*/{Protheus.doc} xSemPre
-função xSemPre - Rotina para execução de funçoes igual formulas no protheus
-@param Não recebe parametros
-@return Não retorna nada
+funÃ§Ã£o xSemPre - Rotina para execuÃ§Ã£o de funÃ§oes igual formulas no protheus
+@param NÃ£o recebe parametros
+@return NÃ£o retorna nada
 @author Rafael Goncalves
 @owner sempreju.com.br
 @version Protheus 12
@@ -20,14 +20,14 @@ Local oGet1Frm := Nil
 Local oBtn1Frm := Nil
 Local oBtn2Frm := Nil
 
-//tratativa para avaliar quando ocorrer um erro em execução
+//tratativa para avaliar quando ocorrer um erro em execuÃ§Ã£o
 //bError := ErrorBlock( {|e| cError := e:Description } )
 
-//controle de transação
+//controle de transaÃ§Ã£o
 //BEGIN SEQUENCE
 
-    oDlg1Frm := MSDialog():New( 091, 232, 225, 574, "SemPreju | Execução" ,,, .F.,,,,,, .T.,,, .T. )
-    oSay1Frm := TSay():New( 008 ,008 ,{ || "Informe a função:" } ,oDlg1Frm ,,,.F. ,.F. ,.F. ,.T. ,CLR_BLACK ,CLR_WHITE ,084 ,008 )
+    oDlg1Frm := MSDialog():New( 091, 232, 225, 574, "SemPreju | ExecuÃ§Ã£o" ,,, .F.,,,,,, .T.,,, .T. )
+    oSay1Frm := TSay():New( 008 ,008 ,{ || "Informe a funÃ§Ã£o:" } ,oDlg1Frm ,,,.F. ,.F. ,.F. ,.T. ,CLR_BLACK ,CLR_WHITE ,084 ,008 )
     oGet1Frm := TGet():New( 020 ,008 ,{ | u | If( PCount() == 0 ,cGet1Frm ,cGet1Frm := u ) } ,oDlg1Frm ,150 ,008 ,'!@' ,,CLR_BLACK ,CLR_WHITE ,,,,.T. ,"" ,,,.F. ,.F. ,,.F. ,.F. ,"" ,"cGet1Frm" ,,)
     oBtn1Frm := TButton():New( 040 ,008 ,"Executar" ,oDlg1Frm ,{ || &(alltrim(cGet1Frm))    } ,037 ,012 ,,,,.T. ,,"" ,,,,.F. )
     oBtn2Frm := TButton():New( 040 ,120 ,"Sair"     ,oDlg1Frm ,{ || oDlg1Frm:End() } ,037 ,012 ,,,,.T. ,,"" ,,,,.F. )
