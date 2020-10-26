@@ -13,7 +13,7 @@ Descrição
 
 Fontes desenvolvidos com o intuito de ajudar analistas que trabalham com ADVPL. Você irá encontrar funcionalidades, tutoriais, em sua maioria com embasamento na arquitetura Protheus. Lembre-se que pode contribuir com os projetos. Algumas novas funcionalidades e implementações na arquiteutra também são abordados nos projetos.
 
-Saiba mais sobre os fontes em -www.sempreju.com.br
+Saiba mais sobre os fontes em - www.sempreju.com.br
 
 FOLDER - PO-Angular
  * **Angular_login - Usando REST Protheus**: exemplo em angular para loguin usando WS do protheus e utilização de JWT.
